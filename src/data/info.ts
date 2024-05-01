@@ -1,79 +1,87 @@
 export const info = {
-  name: "Bart Simpson",
+  name: "Bhagyashree Kulkarni(BK)",
   brief_description:
-    "I'm a mischievous full stack developer with a knack for troublemaking.",
+    "I'm a full stack developer, founder with a wide range of knowledge from Design, Development, Deployment, Maintainance, Marketing to name a few.",
   role: "Full Stack Developer",
   picture: "/pic.png",
-  picture_alt: "Bart Simpson",
-  location: "Springfield, USA",
+  picture_alt: "Bhagyashree Kulkarni",
+  location: "Simi Valley, CA, USA",
   cv: "/resume.pdf",
 
   about: {
     description: `I'm a full stack developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in computer science, although I prefer skateboarding over studying.
+    Being a Bachelor of Computer Engineering, I have a solid foundation in Computer Science.
     I excel in building web applications using React, Node.js, and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding and pranks alike.
-    Looking for a challenge? Let's create something memorable together.`,
+    I'm known for my dedication towards finding solutions of the problems, ownership of the code & great documentation skills. 
+    Drop me an email to discuss opportunities. I work on full-time as well as contract opportunities.`,
     education: [
       {
-        title: "Self-Taught Developer Extraordinaire",
-        date: "2000 - Present",
-        location: "Springfield Elementary School of Hard Knocks",
-        gpa: "4.0 (A+ in Pranks)",
-        thesis: "The Art of Subverting Expectations: A Practical Guide",
+        title: "Bachelor of Computer Engineering",
+        date: "2006",
+        location: "MIT Women's Engineering, Pune, Maharashtra, India",
       },
     ],
     experience: [
       {
-        title: "Frontend Developer",
-        date: "2015 - Present",
-        location: "Krusty Burger Web Dev",
+        title: "Application Developer",
+        date: "January 2020 - Present",
+        location: "Westlake Village/Remote",
         description:
-          "Crafted interactive web experiences using React and Redux. Often multitasked between coding and avoiding Principal Skinner.",
+          ".",
       },
       {
-        title: "Backend Bandit",
-        date: "2013 - 2015",
-        location: "Comic Book Guy's Software Emporium",
+        title: "Freelance Web Developer",
+        date: "2017 - 2019",
+        location: "Remote",
         description:
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging, considering my history of causing bugs.",
+          "Built websites for various clients. E.g.: www.paverwash.com - a Wordpress custom theme, PWA and AMP enabled site. Lazyloading, CDN, as well as server side optimizations to speed up the website. Achieved a perfect 100 pagespeed score.",
       },
       {
-        title: "Junior Hacker",
-        date: "2010 - 2013",
-        location: "Springfield Elementary Cyber Club",
+        title: "Web Developer (Part-time)",
+        date: "2010 - 2019",
+        location: "Remote",
         description:
-          "Pioneered early web exploits, leading the club in daring coding escapades. Was disciplined for hacking the school's grading system.",
+          ".",
       },
     ],
 
-    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Prank Mastery"], // not used yet
+    skills: ["JavaScript", "React", "Node.js", "MongoDB", "Python", "Golang", "PHP", "SQL - Oracle, PostgresSQL, MySQL", "Extensive experience in CMSs - Drupal, Wordpress"], // not used yet
   },
 
   projects: [
     {
-      title: "Bart's Prank Portfolio",
-      date: "2024",
+      title: "maitrin.com",
+      date: "Feb 2015 - Present",
       description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
+        "Founded and developed a online community website/forum for Marathi Women. .",
       link: "https://github.com/bartsimpsonfake/prank-portfolio",
       tech: ["React", "Node.js", "MongoDB", "Sarcasm.js"],
       img_alt: "Bart's Portfolio",
       img_path: "/simpsons.png",
     },
     {
-      title: "Skateboard Shop",
-      date: "2023",
+      title: "Scrolls.com",
+      date: "2024",
       description:
-        "An e-commerce site selling skateboards and prank supplies. No bullies allowed!",
+        "Read, Write and Send scrolls. A multi-platform app (Browser, Mbile, Desktop)",
+      link: "https://github.com/bartsimpsonfake/comic-club",
+      tech: ["React", "Node.js", "MongoDB", "Electron.js"],
+      img_alt: "Comic Book Club",
+      img_path: "comics.png",
+    },
+    {
+      title: "Paverwash.com",
+      date: "2018 - 2019",
+      description:
+        "Completely reinvigorated the website from PSD designs, mobile first, custom theme for Wordpress, with Progressive Web App capabilities, SEO and client/server side optimizations to achieve the perfect 100 pagespeed score.",
       link: "https://github.com/bartsimpsonfake/skate-shop",
-      tech: ["React", "Node.js", "MongoDB", "Skateboard.js"],
+      tech: ["Wordpress", "PHP", "HTML", "JavaScript", "CSS", "MySQL"],
       img_alt: "Skateboard Shop",
       img_path: "skateboard.png",
     },
     {
-      title: "Comic Book Club",
-      date: "2022",
+      title: "React Django project",
+      date: "2024",
       description:
         "A platform for comic book enthusiasts to discuss and share their collections.",
       link: "https://github.com/bartsimpsonfake/comic-club",
@@ -81,12 +89,23 @@ export const info = {
       img_alt: "Comic Book Club",
       img_path: "comics.png",
     },
+    {
+      title: "Personal Portfolio",
+      date: "2024",
+      description:
+        "A platform for comic book enthusiasts to discuss and share their collections.",
+      link: "https://github.com/bartsimpsonfake/comic-club",
+      tech: ["React", "Node.js", "MongoDB", "Typescript", "Astro"],
+      img_alt: "Comic Book Club",
+      img_path: "comics.png",
+    },
   ],
 
   contact: {
-    email: "bart@thesimpsons.com",
-    linkedin: "https://www.linkedin.com/in/bartsimpsonfake",
-    github: "https://www.github.com/gio-del",
-    twitter: "https://www.twitter.com/bartsimpsonfake",
+    email: "bkulkarni.dev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bhagyashreek",
+    github: "https://www.github.com/bhag41",
+    portfolio: "kulbk.com",
+    twitter: "https://www.twitter.com/kulbk",
   },
 };
